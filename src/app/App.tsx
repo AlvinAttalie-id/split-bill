@@ -1,4 +1,5 @@
 import { Receipt } from 'lucide-react';
+import { Toaster } from 'sonner';
 import { UploadReceipt } from './components/UploadReceipt';
 import { ItemsList } from './components/ItemsList';
 import { Summary } from './components/Summary';
@@ -21,6 +22,9 @@ export default function App() {
 
         <Summary />
       </div>
+
+      {/* Toast notifications — position top-center for mobile UX */}
+      <Toaster position="top-center" richColors closeButton />
     </div>
   );
 }

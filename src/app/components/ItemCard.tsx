@@ -1,7 +1,7 @@
 import { Trash2 } from 'lucide-react';
 import { ReceiptItem } from '../types';
 import { useStore } from '../store/useStore';
-import { formatCurrency, calculatePerPerson } from '../utils/mockOcr';
+import { formatCurrency, calculatePerPerson } from '../utils/calculations';
 
 interface ItemCardProps {
   item: ReceiptItem;

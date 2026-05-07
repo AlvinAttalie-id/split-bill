@@ -1,6 +1,6 @@
 import { RotateCcw, Download } from 'lucide-react';
 import { useStore } from '../store/useStore';
-import { formatCurrency, calculatePerPerson, calculateItemTotal } from '../utils/mockOcr';
+import { formatCurrency, calculatePerPerson, calculateItemTotal } from '../utils/calculations';
 
 export function Summary() {
   const { items, reset } = useStore();
